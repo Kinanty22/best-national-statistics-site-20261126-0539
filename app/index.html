@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaStat — Portal Statistik Indonesia</title>
+<meta name="description" content="Portal statistik Indonesia: penduduk, ekonomi, provinsi, dan penjelajah deret waktu 2015–2024. Data resmi BPS, Bank Indonesia, dan Bank Dunia. Tanpa jaringan.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b3d4f'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23f2b234'%3E%E2%97%88%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">◈</span><span><strong>NusaStat</strong><small>Portal Statistik Indonesia</small></span></a>
+    <nav class="mainnav" aria-label="Navigasi utama">
+      <a href="#/" data-nav="home">Beranda</a>
+      <a href="#/ekonomi" data-nav="ekonomi">Ekonomi</a>
+      <a href="#/penduduk" data-nav="penduduk">Penduduk</a>
+      <a href="#/provinsi" data-nav="provinsi">Provinsi</a>
+      <a href="#/penjelajah" data-nav="penjelajah">Penjelajah</a>
+      <a href="#/metodologi" data-nav="metodologi">Metodologi</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap" aria-live="polite"></main>
+<footer class="wrap sitefoot">
+  <p><strong>NusaStat</strong> — portal statistik Indonesia yang berjalan sepenuhnya dari berkas statis, tanpa permintaan jaringan. Angka-angka di situs ini adalah kompilasi estimasi dari publikasi resmi (BPS, Bank Indonesia, Bank Dunia) dengan tahun acuan tercantum di setiap bagian; lihat <a href="#/metodologi">Metodologi &amp; Sumber</a>.</p>
+  <p>Data terakhir diperbarui: November 2026 · Tahun acuan utama: 2024 · Lisensi: MIT</p>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
